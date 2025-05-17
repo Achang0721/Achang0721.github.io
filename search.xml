@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>写作测试</title>
+      <link href="/posts/2013454d.html"/>
+      <url>/posts/2013454d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试">测试</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
@@ -23,27 +44,6 @@
             <tag> Markdown </tag>
             
             <tag> 外挂标签 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>写作测试</title>
-      <link href="/posts/2013454d.html"/>
-      <url>/posts/2013454d.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> 测试 </tag>
             
         </tags>
       
