@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'FOEBZ-L7Z6L-NEFPS-MY3RM-JO7I5-NSF3J',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(103.82759,30.687585, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -1113,7 +1113,7 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("17/05/2025 13:14:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("2025/04/14 21:30:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
@@ -2521,18 +2521,18 @@ if (m == 12 && dd == 25) {//圣诞节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 8 && dd == 11) {//站长生日
-  if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝站长" + (y - 1998).toString() + "岁生日快乐！🥝");
-    sessionStorage.setItem("isPopupWindow", "1");
-  }
-}
-if (m == 6 && dd == 30) {//小猫咪生日
-  if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝小猫咪" + (y - 1999).toString() + "岁生日快乐！🐱");
-    sessionStorage.setItem("isPopupWindow", "1");
-  }
-}
+// if (m == 1 && dd == 12) {//站长生日
+//   if (sessionStorage.getItem("isPopupWindow") != "1") {
+//     Swal.fire("祝站长" + (y - 1998).toString() + "岁生日快乐！🥝");
+//     sessionStorage.setItem("isPopupWindow", "1");
+//   }
+// }
+// if (m == 9 && dd == 12) {//小猫咪生日
+//   if (sessionStorage.getItem("isPopupWindow") != "1") {
+//     Swal.fire("祝小猫咪" + (y - 2003).toString() + "岁生日快乐！🐱");
+//     sessionStorage.setItem("isPopupWindow", "1");
+//   }
+// }
 
 //传统节日部分
 
@@ -2592,6 +2592,19 @@ if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {
   //重阳节
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire("重阳节快乐\n独在异乡为异客，每逢佳节倍思亲");
+    sessionStorage.setItem("isPopupWindow", "1");
+  }
+}
+
+if ((lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿一")) {//站长生日
+  if (sessionStorage.getItem("isPopupWindow") != "1") {
+    Swal.fire("祝站长" + (y - 2003).toString() + "岁生日快乐！☀️");
+    sessionStorage.setItem("isPopupWindow", "1");
+  }
+}
+if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "十二")) {//小猫咪生日
+  if (sessionStorage.getItem("isPopupWindow") != "1") {
+    Swal.fire("祝小🐑" + (y - 2003).toString() + "岁生日快乐！🐑");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2787,11 +2800,11 @@ var now = new Date();
 function createtime() {
   // 当前时间
   now.setTime(now.getTime() + 1000);
-  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间
+  var start = new Date("04/14/2025 00:00:00"); // 旅行者1号开始计算的时间
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("04/14/2025 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
