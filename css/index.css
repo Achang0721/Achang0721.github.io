@@ -6596,33 +6596,35 @@ blockquote.pullquote.right {
 @font-face {
   font-family: HYTMR;
   /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/HYTangMeiRen55W.woff2); */
-  src: url(https://achang0721.github.io/assets/fa-solid-900.woff2);
+  src: url(https://achang0721.github.io/assets/ZiHun106Hao-MengQuLuZhuTi-2.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: LXGW;
   /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2); */
-  src: url(https://achang0721.github.io/assets/fa-v4compatibility.woff2);
+  src: url(https://achang0721.github.io/assets/KeLaiYinLanDeYeWan-2.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: TTQHB;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/甜甜圈海报字体.woff2);
+  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/甜甜圈海报字体.woff2); */
+  src: url(https://achang0721.github.io/assets/AaKeAiBeiTianTianQuanZhuLiao-2.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: Consolas_1;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/Consolas.woff2);
+  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/Consolas.woff2); */
+  src: url(https://achang0721.github.io/assets/ZiTiGuanJiaKaiTi-2.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: ZhuZiAWan;
   /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/ZhuZiAWan2.woff2); */
-  src: url(https://achang0721.github.io/assets/ZhuZiAWan-2.ttc);
+  src: url(https://achang0721.github.io/assets/AaYuanHeiTi-2.woff2);
   font-display: swap;
 }
 
