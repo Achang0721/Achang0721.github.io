@@ -6582,8 +6582,7 @@ blockquote.pullquote.right {
 /* 字体引入 */
 @font-face {
   font-family: YSHST;
-  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/优设好身体.woff2); */
-  src: url(https://achang0721.github.io/assets/fa-brands-400.woff2);
+  src: url(https://achang0721.github.io/assets/YSHaoShenTi-2.woff2);
   font-display: swap;
 }
 
