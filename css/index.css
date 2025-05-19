@@ -6582,7 +6582,8 @@ blockquote.pullquote.right {
 /* 字体引入 */
 @font-face {
   font-family: YSHST;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/优设好身体.woff2);
+  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/优设好身体.woff2); */
+  src: url(https://achang0721.github.io/assets/fa-brands-400.woff2);
   font-display: swap;
 }
 
@@ -7773,7 +7774,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(https://achang0721.github.io//assets/avatar.webp)
     no-repeat center center;
   background-size: cover;
 }
