@@ -3200,8 +3200,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://source.fomal.cc/img/default_cover_1.webp);
-    --darkmode-bg:url(https://source.fomal.cc/img/default_cover_2.webp);
+    --default-bg: url(https://source.fomal.cc/img/default_cover_5.webp);
+    --darkmode-bg:url(https://source.fomal.cc/img/default_cover_8.webp);
     --mobileday-bg: url(https://source.fomal.cc/img/default_cover_3.webp);
     --mobilenight-bg: url(https://source.fomal.cc/img/default_cover_4.webp);
   
