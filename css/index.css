@@ -6622,7 +6622,8 @@ blockquote.pullquote.right {
 
 @font-face {
   font-family: ZhuZiAWan;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/ZhuZiAWan2.woff2);
+  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/ZhuZiAWan2.woff2); */
+  src: url(https://achang0721.github.io/assets/ZhuZiAWan-2.ttc);
   font-display: swap;
 }
 
