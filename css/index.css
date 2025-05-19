@@ -6589,19 +6589,22 @@ blockquote.pullquote.right {
 
 @font-face {
   font-family: MiSans;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/MiSans.woff2);
+  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/MiSans.woff2); */
+  src: url(https://achang0721.github.io/assets/fa-regular-400.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: HYTMR;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/HYTangMeiRen55W.woff2);
+  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/HYTangMeiRen55W.woff2); */
+  src: url(https://achang0721.github.io/assets/fa-solid-900.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: LXGW;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2);
+  /* src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2); */
+  src: url(https://achang0721.github.io/assets/fa-v4compatibility.woff2);
   font-display: swap;
 }
 
